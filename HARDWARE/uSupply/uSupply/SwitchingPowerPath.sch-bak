@@ -1,0 +1,738 @@
+EESchema Schematic File Version 4
+LIBS:uSupply-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L master-vampire_General:U_TC7600 U?
+U 1 1 61606633
+P 5300 6350
+F 0 "U?" H 5300 6917 50  0000 C CNN
+F 1 "U_TC7600" H 5200 5900 50  0001 C CNN
+F 2 "" H 5100 6150 50  0001 C CNN
+F 3 "" H 5100 6150 50  0001 C CNN
+F 4 "Microchip Technology" H 5150 6900 50  0001 C CNN "Manufacturer"
+F 5 "TC7660EPA" H 5300 6826 50  0000 C CNN "MPN"
+F 6 "DigiKey" H 5300 6350 50  0001 C CNN "Supplier"
+F 7 "TC7660EPA-ND" H 5300 6350 50  0001 C CNN "Supplier PN"
+F 8 "8-DIP" H 5300 6350 50  0001 C CNN "Package"
+	1    5300 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L master-vampire_General:C C?
+U 1 1 61606F5D
+P 5300 7150
+F 0 "C?" V 5034 7150 50  0000 C CNN
+F 1 "C" H 5300 7400 50  0001 L CNN
+F 2 "" H 4700 6950 50  0001 C CNN
+F 3 "" H 5450 7250 50  0000 C CNN
+F 4 "1uF" V 5133 7150 60  0000 C CNN "Capacitance"
+F 5 "50V" H 5800 7050 60  0001 C CNN "Voltage Rating"
+F 6 "X7R" H 5550 7050 60  0001 C CNN "TempCo"
+F 7 "±20%" H 5850 7150 60  0001 C CNN "Tolerance"
+F 8 "0603" H 5550 6950 60  0001 C CNN "Package"
+F 9 "DNP" H 5350 7500 50  0001 C CNN "MPN"
+F 10 "DNP" H 5450 7600 50  0001 C CNN "Manufacturer"
+F 11 "DNP" H 5550 7700 50  0001 C CNN "Supplier"
+F 12 "DNP" H 5650 7800 50  0001 C CNN "Supplier PN"
+	1    5300 7150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4800 6650 4700 6650
+Wire Wire Line
+	4700 6650 4700 7150
+Wire Wire Line
+	4700 7150 5150 7150
+Wire Wire Line
+	5800 6650 5900 6650
+Wire Wire Line
+	5900 6650 5900 7150
+Wire Wire Line
+	5900 7150 5450 7150
+$Comp
+L power:GND #PWR?
+U 1 1 61608449
+P 4700 6450
+F 0 "#PWR?" H 4700 6200 50  0001 C CNN
+F 1 "GND" V 4705 6322 50  0000 R CNN
+F 2 "" H 4700 6450 50  0001 C CNN
+F 3 "" H 4700 6450 50  0001 C CNN
+	1    4700 6450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 61608855
+P 4350 5300
+F 0 "#PWR?" H 4350 5150 50  0001 C CNN
+F 1 "+3.3V" H 4365 5473 50  0000 C CNN
+F 2 "" H 4350 5300 50  0001 C CNN
+F 3 "" H 4350 5300 50  0001 C CNN
+	1    4350 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61608BE5
+P 5900 6250
+F 0 "#PWR?" H 5900 6000 50  0001 C CNN
+F 1 "GND" V 5905 6122 50  0000 R CNN
+F 2 "" H 5900 6250 50  0001 C CNN
+F 3 "" H 5900 6250 50  0001 C CNN
+	1    5900 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L master-vampire_General:R R?
+U 1 1 616092E1
+P 3700 6250
+F 0 "R?" H 3700 6454 50  0000 C CNN
+F 1 "R" H 3700 6500 50  0001 C CNN
+F 2 "" H 3700 6320 50  0000 C CNN
+F 3 "" V 3700 6250 50  0000 C CNN
+F 4 "10k" H 3700 6355 60  0000 C CNN "Resistance"
+F 5 "1/10W" H 4100 6050 60  0001 C CNN "Power"
+F 6 "0603" H 3750 6050 60  0001 C CNN "Package"
+F 7 "5%" H 4000 6150 60  0001 C CNN "Tolerance"
+F 8 "DNP" H 4200 6850 50  0001 C CNN "MPN"
+F 9 "DNP" H 4300 6950 50  0001 C CNN "Manufacturer"
+F 10 "DNP" H 4400 7050 50  0001 C CNN "Supplier"
+F 11 "DNP" H 4500 7150 50  0001 C CNN "Supplier PN"
+	1    3700 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L master-vampire_General:R R?
+U 1 1 61609702
+P 3950 5650
+F 0 "R?" V 3897 5703 50  0000 L CNN
+F 1 "R" H 3950 5900 50  0001 C CNN
+F 2 "" H 3950 5720 50  0000 C CNN
+F 3 "" V 3950 5650 50  0000 C CNN
+F 4 "10k" V 3996 5703 60  0000 L CNN "Resistance"
+F 5 "1/10W" H 4350 5450 60  0001 C CNN "Power"
+F 6 "0603" H 4000 5450 60  0001 C CNN "Package"
+F 7 "5%" H 4250 5550 60  0001 C CNN "Tolerance"
+F 8 "DNP" H 4450 6250 50  0001 C CNN "MPN"
+F 9 "DNP" H 4550 6350 50  0001 C CNN "Manufacturer"
+F 10 "DNP" H 4650 6450 50  0001 C CNN "Supplier"
+F 11 "DNP" H 4750 6550 50  0001 C CNN "Supplier PN"
+	1    3950 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L master-vampire_General:C C?
+U 1 1 616098D2
+P 4350 5650
+F 0 "C?" H 4235 5597 50  0000 R CNN
+F 1 "C" H 4350 5900 50  0001 L CNN
+F 2 "" H 3750 5450 50  0001 C CNN
+F 3 "" H 4500 5750 50  0000 C CNN
+F 4 "1uF" H 4235 5696 60  0000 R CNN "Capacitance"
+F 5 "50V" H 4850 5550 60  0001 C CNN "Voltage Rating"
+F 6 "X7R" H 4600 5550 60  0001 C CNN "TempCo"
+F 7 "±20%" H 4900 5650 60  0001 C CNN "Tolerance"
+F 8 "0603" H 4600 5450 60  0001 C CNN "Package"
+F 9 "DNP" H 4400 6000 50  0001 C CNN "MPN"
+F 10 "DNP" H 4500 6100 50  0001 C CNN "Manufacturer"
+F 11 "DNP" H 4600 6200 50  0001 C CNN "Supplier"
+F 12 "DNP" H 4700 6300 50  0001 C CNN "Supplier PN"
+	1    4350 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L master-vampire_General:C C?
+U 1 1 6160A138
+P 6300 6300
+F 0 "C?" H 6185 6247 50  0000 R CNN
+F 1 "C" H 6300 6550 50  0001 L CNN
+F 2 "" H 5700 6100 50  0001 C CNN
+F 3 "" H 6450 6400 50  0000 C CNN
+F 4 "1uF" H 6185 6346 60  0000 R CNN "Capacitance"
+F 5 "50V" H 6800 6200 60  0001 C CNN "Voltage Rating"
+F 6 "X7R" H 6550 6200 60  0001 C CNN "TempCo"
+F 7 "±20%" H 6850 6300 60  0001 C CNN "Tolerance"
+F 8 "0603" H 6550 6100 60  0001 C CNN "Package"
+F 9 "DNP" H 6350 6650 50  0001 C CNN "MPN"
+F 10 "DNP" H 6450 6750 50  0001 C CNN "Manufacturer"
+F 11 "DNP" H 6550 6850 50  0001 C CNN "Supplier"
+F 12 "DNP" H 6650 6950 50  0001 C CNN "Supplier PN"
+	1    6300 6300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4700 6450 4800 6450
+Wire Wire Line
+	5900 6250 5800 6250
+Text Notes 4000 7350 0    50   ~ 0
+LV pin must be connected to ground for input voltages below +3V5
+$Comp
+L power:GND #PWR?
+U 1 1 6160C140
+P 6300 6650
+F 0 "#PWR?" H 6300 6400 50  0001 C CNN
+F 1 "GND" H 6305 6477 50  0000 C CNN
+F 2 "" H 6300 6650 50  0001 C CNN
+F 3 "" H 6300 6650 50  0001 C CNN
+	1    6300 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6160DB8A
+P 4350 6000
+F 0 "#PWR?" H 4350 5750 50  0001 C CNN
+F 1 "GND" H 4355 5827 50  0000 C CNN
+F 2 "" H 4350 6000 50  0001 C CNN
+F 3 "" H 4350 6000 50  0001 C CNN
+	1    4350 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 6000 4350 5800
+Wire Wire Line
+	6300 6450 6300 6650
+Wire Wire Line
+	4350 5300 4350 5400
+$Comp
+L power:-3V3 #PWR?
+U 1 1 61610C1C
+P 6300 5950
+F 0 "#PWR?" H 6300 6050 50  0001 C CNN
+F 1 "-3V3" H 6315 6123 50  0000 C CNN
+F 2 "" H 6300 5950 50  0001 C CNN
+F 3 "" H 6300 5950 50  0001 C CNN
+	1    6300 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 6050 4650 6050
+Wire Wire Line
+	4650 6050 4650 5400
+Wire Wire Line
+	4650 5400 4350 5400
+Connection ~ 4350 5400
+Wire Wire Line
+	4350 5400 4350 5500
+Wire Wire Line
+	6300 5950 6300 6050
+Wire Wire Line
+	5800 6050 6300 6050
+Connection ~ 6300 6050
+Wire Wire Line
+	6300 6050 6300 6150
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6161553E
+P 3950 5300
+F 0 "#PWR?" H 3950 5150 50  0001 C CNN
+F 1 "+3.3V" H 3965 5473 50  0000 C CNN
+F 2 "" H 3950 5300 50  0001 C CNN
+F 3 "" H 3950 5300 50  0001 C CNN
+	1    3950 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 5300 3950 5500
+Wire Wire Line
+	4800 6250 3950 6250
+Wire Wire Line
+	3950 6250 3950 5800
+Wire Wire Line
+	3850 6250 3950 6250
+Connection ~ 3950 6250
+Text Notes 4000 7550 0    50   ~ 0
+Pin 7 controls operating frequency\nOpen pin 7 sets nominal 10kHz
+Wire Wire Line
+	3550 6250 2600 6250
+Text Label 2750 6250 0    50   ~ 0
+CHARGE_OSC_CTRL
+$Comp
+L master-vampire_General:U_CS5171 U?
+U 1 1 616BCA82
+P 4000 3100
+F 0 "U?" H 4000 3664 50  0000 C CNN
+F 1 "U_CS5171" H 4000 2650 50  0001 C CNN
+F 2 "" H 4000 3100 50  0001 C CNN
+F 3 "" H 4000 3100 50  0001 C CNN
+F 4 "CS5171EDR8G" H 4000 3573 50  0000 C CNN "MPN"
+F 5 "onsemi" H 4000 3100 50  0001 C CNN "Manufacturer"
+F 6 "DigiKey" H 4000 3100 50  0001 C CNN "Supplier"
+F 7 "CS5171EDR8GOSCT-ND" H 4000 3100 50  0001 C CNN "Supplier PN"
+F 8 "8-SOIC" H 4000 3100 50  0001 C CNN "Package"
+	1    4000 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L master-vampire_General:U_MCP4131 U?
+U 1 1 616C1BA4
+P 4000 1800
+F 0 "U?" H 4000 2364 50  0000 C CNN
+F 1 "U_MCP4131" H 5150 2500 50  0001 C CNN
+F 2 "" H 5150 2500 50  0001 C CNN
+F 3 "" H 5150 2500 50  0001 C CNN
+F 4 "MCP4131-503E/P" H 4000 2273 50  0000 C CNN "MPN"
+F 5 "Microchip Technology" H 5150 2500 50  0001 C CNN "Manufacturer"
+F 6 "DigiKey" H 5150 2500 50  0001 C CNN "Supplier"
+F 7 "MCP4131-503E/P-ND" H 5150 2500 50  0001 C CNN "Supplier PN"
+F 8 "8-DIP" H 5150 2500 50  0001 C CNN "Package"
+	1    4000 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L master-vampire_General:R R?
+U 1 1 616C39B9
+P 3000 1200
+F 0 "R?" V 2947 1253 50  0000 L CNN
+F 1 "R" H 3000 1450 50  0001 C CNN
+F 2 "" H 3000 1270 50  0000 C CNN
+F 3 "" V 3000 1200 50  0000 C CNN
+F 4 "10k" V 3046 1253 60  0000 L CNN "Resistance"
+F 5 "1/10W" H 3400 1000 60  0001 C CNN "Power"
+F 6 "0603" H 3050 1000 60  0001 C CNN "Package"
+F 7 "5%" H 3300 1100 60  0001 C CNN "Tolerance"
+F 8 "DNP" H 3500 1800 50  0001 C CNN "MPN"
+F 9 "DNP" H 3600 1900 50  0001 C CNN "Manufacturer"
+F 10 "DNP" H 3700 2000 50  0001 C CNN "Supplier"
+F 11 "DNP" H 3800 2100 50  0001 C CNN "Supplier PN"
+	1    3000 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L master-vampire_General:C C?
+U 1 1 616C4262
+P 4750 1200
+F 0 "C?" H 4635 1147 50  0000 R CNN
+F 1 "C" H 4750 1450 50  0001 L CNN
+F 2 "" H 4150 1000 50  0001 C CNN
+F 3 "" H 4900 1300 50  0000 C CNN
+F 4 "1uF" H 4635 1246 60  0000 R CNN "Capacitance"
+F 5 "50V" H 5250 1100 60  0001 C CNN "Voltage Rating"
+F 6 "X7R" H 5000 1100 60  0001 C CNN "TempCo"
+F 7 "±20%" H 5300 1200 60  0001 C CNN "Tolerance"
+F 8 "0603" H 5000 1000 60  0001 C CNN "Package"
+F 9 "DNP" H 4800 1550 50  0001 C CNN "MPN"
+F 10 "DNP" H 4900 1650 50  0001 C CNN "Manufacturer"
+F 11 "DNP" H 5000 1750 50  0001 C CNN "Supplier"
+F 12 "DNP" H 5100 1850 50  0001 C CNN "Supplier PN"
+	1    4750 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 616C6A6D
+P 3000 900
+F 0 "#PWR?" H 3000 750 50  0001 C CNN
+F 1 "+3.3V" H 3015 1073 50  0000 C CNN
+F 2 "" H 3000 900 50  0001 C CNN
+F 3 "" H 3000 900 50  0001 C CNN
+	1    3000 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 900  3000 1050
+Wire Wire Line
+	3500 1500 3000 1500
+Wire Wire Line
+	3000 1500 3000 1350
+$Comp
+L power:GND #PWR?
+U 1 1 616C7E24
+P 3300 1900
+F 0 "#PWR?" H 3300 1650 50  0001 C CNN
+F 1 "GND" V 3305 1772 50  0000 R CNN
+F 2 "" H 3300 1900 50  0001 C CNN
+F 3 "" H 3300 1900 50  0001 C CNN
+	1    3300 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3300 1900 3500 1900
+$Comp
+L power:GND #PWR?
+U 1 1 616C8AA3
+P 4750 1450
+F 0 "#PWR?" H 4750 1200 50  0001 C CNN
+F 1 "GND" H 4755 1277 50  0000 C CNN
+F 2 "" H 4750 1450 50  0001 C CNN
+F 3 "" H 4750 1450 50  0001 C CNN
+	1    4750 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 616C9B31
+P 4750 900
+F 0 "#PWR?" H 4750 750 50  0001 C CNN
+F 1 "+3.3V" H 4765 1073 50  0000 C CNN
+F 2 "" H 4750 900 50  0001 C CNN
+F 3 "" H 4750 900 50  0001 C CNN
+	1    4750 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 900  4750 1000
+Wire Wire Line
+	4750 1000 4600 1000
+Wire Wire Line
+	4600 1000 4600 1500
+Wire Wire Line
+	4600 1500 4500 1500
+Connection ~ 4750 1000
+Wire Wire Line
+	4750 1000 4750 1050
+Wire Wire Line
+	4750 1350 4750 1450
+Wire Wire Line
+	2500 1700 3500 1700
+Wire Wire Line
+	3000 1500 2500 1500
+Connection ~ 3000 1500
+Wire Wire Line
+	3500 2100 2500 2100
+Text Label 2600 2100 0    50   ~ 0
+SDI
+Text Label 2600 1700 0    50   ~ 0
+SCK
+Text Label 2600 1500 0    50   ~ 0
+DPOT_CS
+$Comp
+L power:GND #PWR?
+U 1 1 616D014E
+P 4750 3200
+F 0 "#PWR?" H 4750 2950 50  0001 C CNN
+F 1 "GND" H 4755 3027 50  0000 C CNN
+F 2 "" H 4750 3200 50  0001 C CNN
+F 3 "" H 4750 3200 50  0001 C CNN
+	1    4750 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4500 3000 4750 3000
+Wire Wire Line
+	4750 3000 4750 3200
+Wire Wire Line
+	4500 3200 4750 3200
+$Comp
+L master-vampire_General:R R?
+U 1 1 616D54B0
+P 2500 2800
+F 0 "R?" H 2500 3004 50  0000 C CNN
+F 1 "R" H 2500 3050 50  0001 C CNN
+F 2 "" H 2500 2870 50  0000 C CNN
+F 3 "" V 2500 2800 50  0000 C CNN
+F 4 "10k" H 2500 2905 60  0000 C CNN "Resistance"
+F 5 "1/10W" H 2900 2600 60  0001 C CNN "Power"
+F 6 "0603" H 2550 2600 60  0001 C CNN "Package"
+F 7 "5%" H 2800 2700 60  0001 C CNN "Tolerance"
+F 8 "DNP" H 3000 3400 50  0001 C CNN "MPN"
+F 9 "DNP" H 3100 3500 50  0001 C CNN "Manufacturer"
+F 10 "DNP" H 3200 3600 50  0001 C CNN "Supplier"
+F 11 "DNP" H 3300 3700 50  0001 C CNN "Supplier PN"
+	1    2500 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L master-vampire_General:C C?
+U 1 1 616D5A12
+P 3000 2800
+F 0 "C?" V 2734 2800 50  0000 C CNN
+F 1 "C" H 3000 3050 50  0001 L CNN
+F 2 "" H 2400 2600 50  0001 C CNN
+F 3 "" H 3150 2900 50  0000 C CNN
+F 4 "1uF" V 2833 2800 60  0000 C CNN "Capacitance"
+F 5 "50V" H 3500 2700 60  0001 C CNN "Voltage Rating"
+F 6 "X7R" H 3250 2700 60  0001 C CNN "TempCo"
+F 7 "±20%" H 3550 2800 60  0001 C CNN "Tolerance"
+F 8 "0603" H 3250 2600 60  0001 C CNN "Package"
+F 9 "DNP" H 3050 3150 50  0001 C CNN "MPN"
+F 10 "DNP" H 3150 3250 50  0001 C CNN "Manufacturer"
+F 11 "DNP" H 3250 3350 50  0001 C CNN "Supplier"
+F 12 "DNP" H 3350 3450 50  0001 C CNN "Supplier PN"
+	1    3000 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L master-vampire_General:C C?
+U 1 1 616D5F67
+P 2750 2450
+F 0 "C?" V 2484 2450 50  0000 C CNN
+F 1 "C" H 2750 2700 50  0001 L CNN
+F 2 "" H 2150 2250 50  0001 C CNN
+F 3 "" H 2900 2550 50  0000 C CNN
+F 4 "1uF" V 2583 2450 60  0000 C CNN "Capacitance"
+F 5 "50V" H 3250 2350 60  0001 C CNN "Voltage Rating"
+F 6 "X7R" H 3000 2350 60  0001 C CNN "TempCo"
+F 7 "±20%" H 3300 2450 60  0001 C CNN "Tolerance"
+F 8 "0603" H 3000 2250 60  0001 C CNN "Package"
+F 9 "DNP" H 2800 2800 50  0001 C CNN "MPN"
+F 10 "DNP" H 2900 2900 50  0001 C CNN "Manufacturer"
+F 11 "DNP" H 3000 3000 50  0001 C CNN "Supplier"
+F 12 "DNP" H 3100 3100 50  0001 C CNN "Supplier PN"
+	1    2750 2450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3500 2800 3300 2800
+Wire Wire Line
+	2850 2800 2650 2800
+Wire Wire Line
+	2600 2450 2200 2450
+Wire Wire Line
+	2200 2450 2200 2800
+Wire Wire Line
+	2200 2800 2350 2800
+Wire Wire Line
+	3300 2800 3300 2450
+Wire Wire Line
+	3300 2450 2900 2450
+Connection ~ 3300 2800
+Wire Wire Line
+	3300 2800 3150 2800
+$Comp
+L power:GND #PWR?
+U 1 1 616DCC55
+P 2200 2850
+F 0 "#PWR?" H 2200 2600 50  0001 C CNN
+F 1 "GND" H 2205 2677 50  0000 C CNN
+F 2 "" H 2200 2850 50  0001 C CNN
+F 3 "" H 2200 2850 50  0001 C CNN
+	1    2200 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 2850 2200 2800
+Connection ~ 2200 2800
+Wire Wire Line
+	3500 3000 3400 3000
+Wire Wire Line
+	3400 3000 3400 2400
+Wire Wire Line
+	3400 2400 4750 2400
+Wire Wire Line
+	4750 2400 4750 1900
+Wire Wire Line
+	4750 1900 4500 1900
+$Comp
+L power:GND #PWR?
+U 1 1 616F357C
+P 4600 2150
+F 0 "#PWR?" H 4600 1900 50  0001 C CNN
+F 1 "GND" H 4605 1977 50  0000 C CNN
+F 2 "" H 4600 2150 50  0001 C CNN
+F 3 "" H 4600 2150 50  0001 C CNN
+	1    4600 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 2150 4600 2100
+Wire Wire Line
+	4600 2100 4500 2100
+$Comp
+L master-vampire_General:C C?
+U 1 1 616F62A4
+P 4600 3700
+F 0 "C?" H 4485 3647 50  0000 R CNN
+F 1 "C" H 4600 3950 50  0001 L CNN
+F 2 "" H 4000 3500 50  0001 C CNN
+F 3 "" H 4750 3800 50  0000 C CNN
+F 4 "1uF" H 4485 3746 60  0000 R CNN "Capacitance"
+F 5 "50V" H 5100 3600 60  0001 C CNN "Voltage Rating"
+F 6 "X7R" H 4850 3600 60  0001 C CNN "TempCo"
+F 7 "±20%" H 5150 3700 60  0001 C CNN "Tolerance"
+F 8 "0603" H 4850 3500 60  0001 C CNN "Package"
+F 9 "DNP" H 4650 4050 50  0001 C CNN "MPN"
+F 10 "DNP" H 4750 4150 50  0001 C CNN "Manufacturer"
+F 11 "DNP" H 4850 4250 50  0001 C CNN "Supplier"
+F 12 "DNP" H 4950 4350 50  0001 C CNN "Supplier PN"
+	1    4600 3700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4500 3400 4600 3400
+Wire Wire Line
+	4600 3400 4600 3550
+Connection ~ 4750 3200
+$Comp
+L master-vampire_General:C C?
+U 1 1 61701F02
+P 5350 2800
+F 0 "C?" V 5084 2800 50  0000 C CNN
+F 1 "C" H 5350 3050 50  0001 L CNN
+F 2 "" H 4750 2600 50  0001 C CNN
+F 3 "" H 5500 2900 50  0000 C CNN
+F 4 "1uF" V 5183 2800 60  0000 C CNN "Capacitance"
+F 5 "50V" H 5850 2700 60  0001 C CNN "Voltage Rating"
+F 6 "X7R" H 5600 2700 60  0001 C CNN "TempCo"
+F 7 "±20%" H 5900 2800 60  0001 C CNN "Tolerance"
+F 8 "0603" H 5600 2600 60  0001 C CNN "Package"
+F 9 "DNP" H 5400 3150 50  0001 C CNN "MPN"
+F 10 "DNP" H 5500 3250 50  0001 C CNN "Manufacturer"
+F 11 "DNP" H 5600 3350 50  0001 C CNN "Supplier"
+F 12 "DNP" H 5700 3450 50  0001 C CNN "Supplier PN"
+	1    5350 2800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5200 2800 5050 2800
+$Comp
+L power:GND #PWR?
+U 1 1 61705A90
+P 4600 3950
+F 0 "#PWR?" H 4600 3700 50  0001 C CNN
+F 1 "GND" H 4605 3777 50  0000 C CNN
+F 2 "" H 4600 3950 50  0001 C CNN
+F 3 "" H 4600 3950 50  0001 C CNN
+	1    4600 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 3950 4600 3850
+$Comp
+L master-vampire_General:D_Schottky D?
+U 1 1 6170BD16
+P 6100 2800
+F 0 "D?" H 6100 2371 50  0000 C CNN
+F 1 "D_Schottky" H 6150 3100 50  0001 C CNN
+F 2 "" H 6000 2800 50  0001 C CNN
+F 3 "" H 6100 2900 50  0001 C CNN
+F 4 "20V" H 6100 2470 60  0000 C CNN "Vr"
+F 5 "1A" H 6100 2576 60  0000 C CNN "Iavg"
+F 6 "DNP" H 6100 2674 50  0000 C CNN "MPN"
+F 7 "DNP" H 6100 2800 50  0001 C CNN "Manufacturer"
+F 8 "DNP" H 6100 2800 50  0001 C CNN "Supplier"
+F 9 "DNP" H 6100 2800 50  0001 C CNN "Supplier PN"
+F 10 "DNP" H 6100 2800 50  0001 C CNN "Package"
+	1    6100 2800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5500 2800 5750 2800
+Wire Wire Line
+	4500 1700 6400 1700
+Wire Wire Line
+	6400 1700 6400 2800
+Wire Wire Line
+	6400 2800 6250 2800
+Wire Wire Line
+	6400 2800 7500 2800
+Connection ~ 6400 2800
+Text Label 6800 2800 0    50   ~ 0
+VOUT_PRETRACK
+$Comp
+L master-vampire_General:L_Coupled L?
+U 1 1 61712D1F
+P 5050 3150
+F 0 "L?" V 5103 3107 50  0000 R CNN
+F 1 "L_Coupled" H 5600 3400 50  0001 C CNN
+F 2 "" V 5050 3150 50  0000 C CNN
+F 3 "" V 5050 3150 50  0000 C CNN
+F 4 "33uH" V 5004 3107 60  0000 R CNN "Inductance"
+F 5 "Through Hole" H 5400 2950 60  0001 C CNN "Package"
+F 6 "2.9A" V 4900 3000 60  0000 C CNN "Current Rating"
+F 7 "55mOhm" H 5050 2800 60  0001 C CNN "DC Resistance"
+F 8 "10" H 5250 3050 60  0001 C CNN "Tolerance"
+F 9 "RCH110NP-330K" V 4700 2900 50  0000 C CNN "MPN"
+F 10 "Sumida America Inc." H 5750 3950 50  0001 C CNN "Manufacturer"
+F 11 "DigiKey" H 5850 4050 50  0001 C CNN "Supplier"
+F 12 "RCH110NP-330K-ND" H 5950 4150 50  0001 C CNN "Supplier PN"
+	1    5050 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L master-vampire_General:L_Coupled L?
+U 2 1 617134FA
+P 5750 3150
+F 0 "L?" V 5803 3107 50  0000 R CNN
+F 1 "L_Coupled" H 6300 3400 50  0001 C CNN
+F 2 "" V 5750 3150 50  0000 C CNN
+F 3 "" V 5750 3150 50  0000 C CNN
+F 4 "33uH" V 5704 3107 60  0000 R CNN "Inductance"
+F 5 "Through Hole" H 6100 2950 60  0001 C CNN "Package"
+F 6 "2.9A" V 5600 3000 60  0000 C CNN "Current Rating"
+F 7 "55mOhm" H 5750 2800 60  0001 C CNN "DC Resistance"
+F 8 "10" H 5950 3050 60  0001 C CNN "Tolerance"
+F 9 "RCH110NP-330K" V 5400 2750 50  0000 C CNN "MPN"
+F 10 "Sumida America Inc." H 6450 3950 50  0001 C CNN "Manufacturer"
+F 11 "DigiKey" H 6550 4050 50  0001 C CNN "Supplier"
+F 12 "RCH110NP-330K-ND" H 6650 4150 50  0001 C CNN "Supplier PN"
+	2    5750 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 3000 5050 2800
+Connection ~ 5050 2800
+Wire Wire Line
+	5050 2800 4500 2800
+Wire Wire Line
+	5050 3300 5050 3400
+Wire Wire Line
+	5050 3400 4600 3400
+Connection ~ 4600 3400
+Wire Wire Line
+	5750 3000 5750 2800
+Connection ~ 5750 2800
+Wire Wire Line
+	5750 2800 5950 2800
+$Comp
+L power:GND #PWR?
+U 1 1 6171DC72
+P 5750 3400
+F 0 "#PWR?" H 5750 3150 50  0001 C CNN
+F 1 "GND" H 5755 3227 50  0000 C CNN
+F 2 "" H 5750 3400 50  0001 C CNN
+F 3 "" H 5750 3400 50  0001 C CNN
+	1    5750 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 3400 5750 3350
+$Comp
+L master-vampire_General:C C?
+U 1 1 6172D526
+P 6400 3150
+F 0 "C?" H 6285 3097 50  0000 R CNN
+F 1 "C" H 6400 3400 50  0001 L CNN
+F 2 "" H 5800 2950 50  0001 C CNN
+F 3 "" H 6550 3250 50  0000 C CNN
+F 4 "1uF" H 6285 3196 60  0000 R CNN "Capacitance"
+F 5 "50V" H 6900 3050 60  0001 C CNN "Voltage Rating"
+F 6 "X7R" H 6650 3050 60  0001 C CNN "TempCo"
+F 7 "±20%" H 6950 3150 60  0001 C CNN "Tolerance"
+F 8 "0603" H 6650 2950 60  0001 C CNN "Package"
+F 9 "DNP" H 6450 3500 50  0001 C CNN "MPN"
+F 10 "DNP" H 6550 3600 50  0001 C CNN "Manufacturer"
+F 11 "DNP" H 6650 3700 50  0001 C CNN "Supplier"
+F 12 "DNP" H 6750 3800 50  0001 C CNN "Supplier PN"
+	1    6400 3150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6400 3000 6400 2800
+Wire Wire Line
+	6400 3300 6400 3350
+Wire Wire Line
+	6400 3350 5750 3350
+Connection ~ 5750 3350
+Wire Wire Line
+	5750 3350 5750 3300
+Wire Wire Line
+	2500 3200 3500 3200
+Wire Wire Line
+	2500 3400 3500 3400
+Text Notes 1850 4050 0    50   ~ 0
+SEPIC CONVERTER
+$EndSCHEMATC

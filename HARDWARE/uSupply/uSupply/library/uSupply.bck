@@ -1,0 +1,152 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ATWINC15x0MR210xB
+D WiFi 802.11b/g/n Transceiver Module 2.4GHz Integrated
+K wireless wifi module
+$ENDCMP
+#
+$CMP BT_Battery_SingleCell
+D Battery single cell
+K battery single cell
+$ENDCMP
+#
+$CMP C
+D CAPACITOR
+K cap capacitor
+$ENDCMP
+#
+$CMP CP
+D POLARIZED CAPACITOR
+K cap capacitor
+$ENDCMP
+#
+$CMP Conn_1x10
+D CONN 1x10
+K connector 10
+$ENDCMP
+#
+$CMP Conn_1x12
+D CONN 1x12
+K connector
+$ENDCMP
+#
+$CMP Conn_1x16
+D CONN 1x16
+$ENDCMP
+#
+$CMP Conn_1x6
+D CONN 1x6
+$ENDCMP
+#
+$CMP Conn_2x3
+D CONN 2x3
+$ENDCMP
+#
+$CMP Conn_2x4
+D CONN 2x4
+$ENDCMP
+#
+$CMP Conn_BarrelJack_Switch
+D CONN PWR JACK WITH SWITCH
+K conn barrel jack switch
+$ENDCMP
+#
+$CMP D
+D DIODE GEN PURP
+K diode
+$ENDCMP
+#
+$CMP D_Schottky
+D DIODE SCHOTTKY
+K diode schottky
+$ENDCMP
+#
+$CMP D_TVS_Bidirectional
+D TVS DIODE BIDIRECTIONAL
+K diode tvs
+$ENDCMP
+#
+$CMP D_Zener
+D DIODE ZENER
+K diode zener
+$ENDCMP
+#
+$CMP FD
+D FIDUCIAL
+K fiducial
+$ENDCMP
+#
+$CMP H_MountingHole_Screw
+D MOUNTING HOLE FOR SCREW
+K mounting hole screw
+$ENDCMP
+#
+$CMP L
+D FIXED IND 10UH 1.2A 180 MOHM SMD
+K inductor choke coil reactor magnetic
+$ENDCMP
+#
+$CMP LED
+D LED generic
+K led diode
+$ENDCMP
+#
+$CMP MountingHole
+D Mounting Hole
+K mounting hole mechanical
+$ENDCMP
+#
+$CMP R
+D RESISTOR
+K res resistor
+$ENDCMP
+#
+$CMP RN_ARRAY_4
+D RESISTOR ARRAY 4
+K res resistor array
+$ENDCMP
+#
+$CMP RPOT
+D RESISTOR POTENTIOMETER
+K res resistor pot potentiometer
+$ENDCMP
+#
+$CMP RT
+D THERMISTOR NTC 10KOHM 3380K 0603
+K res resistor
+$ENDCMP
+#
+$CMP SW_NO_4-Pin
+D SWITCH NO 4 PIN
+K switch no 4
+$ENDCMP
+#
+$CMP TSV734IQ4T
+D IC OPAMP GP 4 CIRCUIT 16QFN
+$ENDCMP
+#
+$CMP U_ATMEGA328PB
+D IC MCU 8BIT
+$ENDCMP
+#
+$CMP U_LT3080
+D IC REG LIN POS ADJ 1.1A
+$ENDCMP
+#
+$CMP U_MCP73832T
+D IC LI-ION/LI-POLY CTRLR SOT23-5
+K ic battery charging
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf
+$ENDCMP
+#
+$CMP XTAL_2Lead
+D CRYSTAL
+K crystal xtal
+$ENDCMP
+#
+$CMP XTAL_4Lead
+D CRYSTAL
+K crystal xtal
+$ENDCMP
+#
+#End Doc Library

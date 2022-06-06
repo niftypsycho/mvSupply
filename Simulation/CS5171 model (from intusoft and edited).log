@@ -1,0 +1,5 @@
+Circuit: C:\DOCUMENTS AND SETTINGS\FFT9ND\DESKTOP\DATA\MY CIRCUITS B\CS5171-2-4\CS5171 (FROM INTUSOFT AND EDITED).CIR SETUP1
+
+Warning: Multiple definitions of model "2:1:sst211" Type: Mos1
+Fatal Error:     -- Syntax Error --
+expl(): No such function

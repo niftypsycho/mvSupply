@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name master-vampire_General)(type Legacy)(uri ${KIPRJMOD}/library/master-vampire_General.lib)(options "")(descr ""))
+  (lib (name PowerSupplyProject)(type Legacy)(uri C:/Users/Christian/Documents/PowerSupplyProject/library/PowerSupplyProject.lib)(options "")(descr ""))
+)

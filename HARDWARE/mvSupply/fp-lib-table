@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "master-vampire")(type "KiCad")(uri "${KIPRJMOD}/master-vampire.pretty")(options "")(descr ""))
+)

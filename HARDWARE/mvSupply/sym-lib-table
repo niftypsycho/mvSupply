@@ -1,5 +1,4 @@
 (sym_lib_table
   (lib (name "PowerSupplyProject")(type "Legacy")(uri "C:/Users/Christian/Documents/PowerSupplyProject/library/PowerSupplyProject.lib")(options "")(descr ""))
-  (lib (name "master-vampire_General")(type "KiCad")(uri "${KIPRJMOD}/library/master-vampire_General.kicad_sym")(options "")(descr ""))
-  (lib (name "master-vampire")(type "Legacy")(uri "C:/Users/Christian/Documents/GitHub/master-vampire/library/master-vampire.lib")(options "")(descr ""))
+  (lib (name "master-vampire")(type "KiCad")(uri "${KIPRJMOD}/../../library/master-vampire.kicad_sym")(options "")(descr ""))
 )

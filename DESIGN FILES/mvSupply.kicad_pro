@@ -236,7 +236,6 @@
   "libraries": {
     "pinned_footprint_libs": [
       "master-vampire",
-      "master-vampire-destructive",
       "master-vampire-verylocal"
     ],
     "pinned_symbol_libs": []

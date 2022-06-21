@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name "master-vampire-verylocal")(type "KiCad")(uri "${KIPRJMOD}/master-vampire.pretty")(options "")(descr ""))
+  (lib (name "master-vampire")(type "KiCad")(uri "${KIPRJMOD}/../library/master-vampire.pretty")(options "")(descr ""))
+  (lib (name "powersupply")(type "KiCad")(uri "C:/Users/Christian/Documents/PowerSupplyProject/master-vampire.pretty")(options "")(descr ""))
+  (lib (name "master-vampire-maintained")(type "KiCad")(uri "${KIPRJMOD}/../../master-vampire/master-vampire.pretty")(options "")(descr ""))
+)

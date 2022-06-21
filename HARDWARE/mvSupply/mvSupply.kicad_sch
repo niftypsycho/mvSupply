@@ -398,7 +398,7 @@
       (reference "G2") (unit 1) (value "G") (footprint "master-vampire:H_BindingPost-Dual")
     )
     (path "/00000000-0000-0000-0000-000061739b15/92f50844-9e62-4d3b-94fc-91bc4164b828"
-      (reference "G?") (unit 1) (value "18650 BATTERY") (footprint "")
+      (reference "G3") (unit 1) (value "18650 BATTERY") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061fb0c2e/00000000-0000-0000-0000-000061fb30f6"
       (reference "J1") (unit 1) (value "Conn_1x2") (footprint "")
@@ -434,100 +434,100 @@
       (reference "R2") (unit 1) (value "R") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061569f83/00000000-0000-0000-0000-0000616c39b9"
-      (reference "R3") (unit 1) (value "R") (footprint "")
+      (reference "R3") (unit 1) (value "R") (footprint "master-vampire:R_AXIAL_L7mm_D2.6mm_P10mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061569f83/00000000-0000-0000-0000-0000616092e1"
-      (reference "R4") (unit 1) (value "R") (footprint "")
+      (reference "R4") (unit 1) (value "R") (footprint "master-vampire:R_AXIAL_L7mm_D2.6mm_P10mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061569f83/00000000-0000-0000-0000-000061609702"
-      (reference "R5") (unit 1) (value "R") (footprint "")
+      (reference "R5") (unit 1) (value "R") (footprint "master-vampire:R_AXIAL_L7mm_D2.6mm_P10mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000615677f3/00000000-0000-0000-0000-00006161604e"
-      (reference "R6") (unit 1) (value "R") (footprint "")
+      (reference "R6") (unit 1) (value "R") (footprint "master-vampire:R_AXIAL_L7mm_D2.6mm_P10mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000615677f3/00000000-0000-0000-0000-000061616040"
-      (reference "R7") (unit 1) (value "R") (footprint "")
+      (reference "R7") (unit 1) (value "R") (footprint "master-vampire:R_AXIAL_L7mm_D2.6mm_P10mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000615677f3/00000000-0000-0000-0000-0000616156fa"
-      (reference "R8") (unit 1) (value "R") (footprint "")
+      (reference "R8") (unit 1) (value "R") (footprint "master-vampire:R_AXIAL_L7mm_D2.6mm_P10mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000615677f3/00000000-0000-0000-0000-0000616156ec"
-      (reference "R9") (unit 1) (value "R") (footprint "")
+      (reference "R9") (unit 1) (value "R") (footprint "master-vampire:R_AXIAL_L7mm_D2.6mm_P10mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000615677f3/00000000-0000-0000-0000-0000616156de"
-      (reference "R10") (unit 1) (value "R") (footprint "")
+      (reference "R10") (unit 1) (value "R") (footprint "master-vampire:R_AXIAL_L7mm_D2.6mm_P10mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000615677f3/00000000-0000-0000-0000-0000616156d0"
-      (reference "R11") (unit 1) (value "R") (footprint "")
+      (reference "R11") (unit 1) (value "R") (footprint "master-vampire:R_AXIAL_L7mm_D2.6mm_P10mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000615677f3/00000000-0000-0000-0000-0000616139c6"
-      (reference "R12") (unit 1) (value "R") (footprint "")
+      (reference "R12") (unit 1) (value "R") (footprint "master-vampire:R_AXIAL_L7mm_D2.6mm_P10mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000615677f3/00000000-0000-0000-0000-0000616139b8"
-      (reference "R13") (unit 1) (value "R") (footprint "")
+      (reference "R13") (unit 1) (value "R") (footprint "master-vampire:R_AXIAL_L7mm_D2.6mm_P10mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000615677f3/00000000-0000-0000-0000-0000616126a2"
-      (reference "R14") (unit 1) (value "R") (footprint "")
+      (reference "R14") (unit 1) (value "R") (footprint "master-vampire:R_AXIAL_L7mm_D2.6mm_P10mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000615677f3/00000000-0000-0000-0000-000061611fb2"
-      (reference "R15") (unit 1) (value "R") (footprint "")
+      (reference "R15") (unit 1) (value "R") (footprint "master-vampire:R_AXIAL_L7mm_D2.6mm_P10mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000615677f3/00000000-0000-0000-0000-000061609bfe"
-      (reference "R16") (unit 1) (value "R") (footprint "")
+      (reference "R16") (unit 1) (value "R") (footprint "master-vampire:R_AXIAL_L7mm_D2.6mm_P10mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061569fac/00000000-0000-0000-0000-000061f861c3"
-      (reference "R17") (unit 1) (value "R") (footprint "")
+      (reference "R17") (unit 1) (value "R") (footprint "master-vampire:R_AXIAL_L7mm_D2.6mm_P10mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061569fac/00000000-0000-0000-0000-000061f91b2a"
-      (reference "R18") (unit 1) (value "R") (footprint "")
+      (reference "R18") (unit 1) (value "R") (footprint "master-vampire:R_AXIAL_L7mm_D2.6mm_P10mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061569fac/00000000-0000-0000-0000-000061f7da46"
-      (reference "R19") (unit 1) (value "R") (footprint "")
+      (reference "R19") (unit 1) (value "R") (footprint "master-vampire:R_AXIAL_L7mm_D2.6mm_P10mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061569fac/00000000-0000-0000-0000-000061f91af5"
-      (reference "R20") (unit 1) (value "R") (footprint "")
+      (reference "R20") (unit 1) (value "R") (footprint "master-vampire:R_AXIAL_L7mm_D2.6mm_P10mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061569fac/00000000-0000-0000-0000-000061ff1507"
-      (reference "R21") (unit 1) (value "R") (footprint "")
+      (reference "R21") (unit 1) (value "R") (footprint "master-vampire:R_AXIAL_L7mm_D2.6mm_P10mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061569fac/00000000-0000-0000-0000-000062005d35"
-      (reference "R22") (unit 1) (value "R") (footprint "")
+      (reference "R22") (unit 1) (value "R") (footprint "master-vampire:R_AXIAL_L7mm_D2.6mm_P10mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061569fac/00000000-0000-0000-0000-00006200613d"
-      (reference "R23") (unit 1) (value "R") (footprint "")
+      (reference "R23") (unit 1) (value "R") (footprint "master-vampire:R_AXIAL_L7mm_D2.6mm_P10mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061569fac/00000000-0000-0000-0000-000061f80cdf"
-      (reference "R24") (unit 1) (value "R") (footprint "")
+      (reference "R24") (unit 1) (value "R") (footprint "master-vampire:R_AXIAL_L7mm_D2.6mm_P10mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061569fac/00000000-0000-0000-0000-000061f91b12"
-      (reference "R25") (unit 1) (value "R") (footprint "")
+      (reference "R25") (unit 1) (value "R") (footprint "master-vampire:R_AXIAL_L7mm_D2.6mm_P10mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061569fac/00000000-0000-0000-0000-000061f877a4"
-      (reference "R26") (unit 1) (value "R") (footprint "")
+      (reference "R26") (unit 1) (value "R") (footprint "master-vampire:R_AXIAL_L7mm_D2.6mm_P10mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061569fac/00000000-0000-0000-0000-000061f91b3c"
-      (reference "R27") (unit 1) (value "R") (footprint "")
+      (reference "R27") (unit 1) (value "R") (footprint "master-vampire:R_AXIAL_L7mm_D2.6mm_P10mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061569fac/00000000-0000-0000-0000-000062006271"
-      (reference "R28") (unit 1) (value "R") (footprint "")
+      (reference "R28") (unit 1) (value "R") (footprint "master-vampire:R_AXIAL_L7mm_D2.6mm_P10mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061569fac/00000000-0000-0000-0000-000061fde54d"
-      (reference "R29") (unit 1) (value "R") (footprint "")
+      (reference "R29") (unit 1) (value "R") (footprint "master-vampire:R_AXIAL_L7mm_D2.6mm_P10mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061569fac/00000000-0000-0000-0000-000061fe7487"
-      (reference "R30") (unit 1) (value "R") (footprint "")
+      (reference "R30") (unit 1) (value "R") (footprint "master-vampire:R_AXIAL_L7mm_D2.6mm_P10mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061569fac/00000000-0000-0000-0000-000061fea137"
-      (reference "R31") (unit 1) (value "R") (footprint "")
+      (reference "R31") (unit 1) (value "R") (footprint "master-vampire:R_AXIAL_L7mm_D2.6mm_P10mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061569fac/00000000-0000-0000-0000-000061fea170"
-      (reference "R32") (unit 1) (value "R") (footprint "")
+      (reference "R32") (unit 1) (value "R") (footprint "master-vampire:R_AXIAL_L7mm_D2.6mm_P10mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061569fac/00000000-0000-0000-0000-0000615ea9ac"
-      (reference "R33") (unit 1) (value "R") (footprint "")
+      (reference "R33") (unit 1) (value "R") (footprint "master-vampire:R_AXIAL_L7mm_D2.6mm_P10mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061569fac/00000000-0000-0000-0000-0000615ec5e8"
-      (reference "R34") (unit 1) (value "R") (footprint "")
+      (reference "R34") (unit 1) (value "R") (footprint "master-vampire:R_AXIAL_L7mm_D2.6mm_P10mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061fb0c2e/00000000-0000-0000-0000-000062003da1"
       (reference "SW1") (unit 1) (value "SW_4-Pin_1234") (footprint "")

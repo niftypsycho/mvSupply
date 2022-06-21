@@ -105,7 +105,7 @@
   (symbol (lib_id "master-vampire:G") (at 76.2 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 92f50844-9e62-4d3b-94fc-91bc4164b828)
-    (property "Reference" "G?" (id 0) (at 76.2 91.6264 0))
+    (property "Reference" "G3" (id 0) (at 76.2 91.6264 0))
     (property "Value" "18650 BATTERY" (id 1) (at 76.2 96.52 0))
     (property "Footprint" "" (id 2) (at 76.2 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
